@@ -1,10 +1,5 @@
 package dev.toni.ProjetoJava.service;
 
-/*Henrique Totti - RA:10436584
- Antonio Pereira - RA:10436919
- Fernando Lacava - RA:10438026
- */
-
 import java.util.List;
 import java.util.Optional;
 
@@ -18,21 +13,21 @@ import dev.toni.ProjetoJava.repository.IniciativaRepository;
 public class IniciativaService {
 
     @Autowired
-    private IniciativaRepository repository;
+    private IniciativaRepository iniciativaRepository;
 
-    public List<Iniciativa> findAll() {
-        return repository.findAll();
+    public List<Iniciativa> listarTodos() {
+        return iniciativaRepository.findAll();
     }
 
-    public Optional<Iniciativa> findById(Long id) {
-        return repository.findById(id);
+    public Optional<Iniciativa> buscarPorId(Long id) {
+        return iniciativaRepository.findById(id);
     }
 
-    public Iniciativa save(Iniciativa iniciativa) {
-        return repository.save(iniciativa);
+    public Iniciativa salvar(Iniciativa iniciativa) {
+        return iniciativaRepository.save(iniciativa);
     }
 
-    public void deleteById(Long id) {
-        repository.deleteById(id);
+    public void deletar(Long id) {
+        iniciativaRepository.deleteById(id);
     }
 }
