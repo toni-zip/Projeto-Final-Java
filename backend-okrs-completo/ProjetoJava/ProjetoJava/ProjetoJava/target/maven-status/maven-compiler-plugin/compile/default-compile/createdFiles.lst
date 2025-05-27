@@ -1,0 +1,12 @@
+dev\toni\ProjetoJava\controller\ObjetivoController.class
+dev\toni\ProjetoJava\repository\ObjetivoRepository.class
+dev\toni\ProjetoJava\model\Objetivo.class
+dev\toni\ProjetoJava\repository\ResultadoChaveRepository.class
+dev\toni\ProjetoJava\service\ObjetivoService.class
+dev\toni\ProjetoJava\controller\ResultadoChaveController.class
+dev\toni\ProjetoJava\controller\IniciativaController.class
+dev\toni\ProjetoJava\service\IniciativaService.class
+dev\toni\ProjetoJava\service\ResultadoChaveService.class
+dev\toni\ProjetoJava\model\ResultadoChave.class
+dev\toni\ProjetoJava\repository\IniciativaRepository.class
+dev\toni\ProjetoJava\model\Iniciativa.class
