@@ -1,5 +1,6 @@
 # Projeto-Final-Java
 # Sistema de Gestão de OKRs (Objectives and Key Results)
+# Vídeo da Apresentação: https://youtu.be/DcBnz86xyjM
 
 Um sistema simplificado para acompanhamento de OKRs, permitindo o registro de objetivos, resultados-chave (KRs) e iniciativas relacionadas. Desenvolvido com **Java Spring Boot** para o back-end e preparado para integração com um front-end em NextJS.
 
